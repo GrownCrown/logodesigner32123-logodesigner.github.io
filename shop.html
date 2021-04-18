@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">  
+            <!--Ion Icons-->
+            <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Archivo:500">
+    <title>The Inventive Logo Designer</title>
+</head>
+<body>
+<!------------ Nav Section --------------->
+    <div class="container">
+        <header>
+            <nav>
+                <div class="insta">
+                    <a href="https://www.instagram.com/the_inventive_logo_designer/" target="_blank">Instagram</a>
+                </div>
+                <div class="nav-brand">
+                   <a href="index.html"><img src="images/IMG_0947.JPG"></a>
+                </div>
+               
+                <div class="nav-brand">
+                    <a href="index.html"><img src="images/IMG_0947.JPG"></a>
+                 </div>
+                
+                 <div class="menu-icons open"> 
+                   <i class="icon ion-md-menu"></i>
+               </div>
+    
+               <ul class="nav-list">
+                <div class="menu-icons close"> 
+                    <i class="icon ion-md-close"></i>
+                </div>
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Showcase</a> 
+                </li>
+                <li class="nav-item">
+                    <a href="#" id="active" class="nav-link">Shop</a> 
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a> 
+                </li>
+                <div class="message1">
+                 Design. Live. Create.
+             </div>     
+               </ul>
+                <div class="message1">
+                    Design. Live. Create.
+                </div>     
+        </div>
+</nav>
+ </header>
+<!--------------- END NAV -------------->
+
+<!--------------- START MAIN ------------>
+ <main class="shop-main">
+     <div class="shop-container">
+         <div class="shop-msg"><h1>Exclusive, Ready-made Logos</h1> <br> <h3>Skip the long waiting times, we’ve got your logo. Trademarkable ready-made logos for sale. One-time sales only.</h3><br><h4>More Coming Soon</h4></div>
+         <div class="shop-motto"><h1>Shop Now!</h1></div>
+     </div>
+
+     <div class="content-wrapper">
+        <div class="showcase">Logos on sale</div>
+
+        <div class="shop-wrapper">
+            <div class="shop-item-wrapper">
+                <img class="shop-logo" src="images/sale1.JPG" alt="">
+            </div>
+            <div class="shop-item-wrapper">
+                <img class="shop-logo" src="images/sale2.JPG" alt="">
+            </div>
+            <div class="shop-item-wrapper">
+                <img class="shop-logo" src="images/sale3.JPG" alt="">
+            </div>
+            <div class="shop-item-wrapper">
+                <img class="shop-logo" src="images/sale4.JPG" alt="">
+            </div>
+            <div class="shop-item-wrapper">
+                <img class="shop-logo" src="images/sale5.JPG" alt="">
+            </div>
+            <div class="shop-item-wrapper">
+                <img class="shop-logo" src="images/sale6.JPG" alt="">
+            </div>
+        </div>
+  
+</main>
+<!--------- START FOOTER ------------>
+<footer class="Footer">
+    <div class="main">
+        <div class="col1">
+           <a href="index.html"> <img src="images/IMG_0947.JPG"  alt=""></a>
+        <div class="col1-subtitle">About Us</div>
+        <div class="context">The Inventive_Logo_Designer is a brand based on graphics design with years of experience and client work through Instagram, trying his best to satisfy the people's needs with the perfect logo/design as per a customer's satisfaction.</div>
+       </div>  
+       <div class="col2">
+         <div class="col2-subtitle">Quick Links</div>
+         <div class="col2-context"><ul>
+           <li><a href="#">Shop</a></li>
+           <li><a href="about.html">About</a></li>
+           </ul></div>
+         </div>
+           <div class="col3">
+             <div class="col3-subtitle">Information</div>
+             <div class="col3-context">
+              <div class="col3-context1">
+              <i class="fas fa-envelope"></i><h4>logodesigner.av@gmail.com</h4>
+             </div>
+             <div class="col3-context2">
+             <i class="fab fa-instagram"></i><a href="https://www.instagram.com/the_inventive_logo_designer/" target="_blank"><h4>Instagram</h4></a>
+           </div>
+           <div class="col3-context3"><p>Website created by <a href="https://www.instagram.com/hybrix__/">Hybrix</a> with <i class="fas fa-heart"></i> & <i class="fas fa-coffee"></i></p></div>
+
+           </div>
+           </div>
+    </div>
+</footer>
+<!----------- END FOOTER --------------->
+
+
+<script>
+    const selectelement =  (s) => document .querySelector(s);
+     
+    selectelement(' .open').addEventListener('click', () => {
+        selectelement( '.nav-list').classList.add('active');
+    })
+    
+    selectelement(' .close').addEventListener ('click', () => {
+        selectelement( '.nav-list').classList.remove('active');
+    }) 
+    
+    
+    
+    </script>
+</body>
+</html>
